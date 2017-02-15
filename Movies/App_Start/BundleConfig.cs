@@ -24,7 +24,8 @@ namespace Movies
                       "~/Scripts/respond.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap-lumen.css",
+                      "~/Content/bootstrap-state.css",
+                   
                       "~/Content/site.css"));
         }
     }
