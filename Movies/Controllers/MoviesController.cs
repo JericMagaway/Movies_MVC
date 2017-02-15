@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using Movies.Models;
 
 namespace Movies.Controllers
 {
@@ -12,7 +13,8 @@ namespace Movies.Controllers
         // GET: /Movies/Random
         public ActionResult Random()
         {
-            return View();
+            var movie = new Movie() { Name = "WareHouse" };
+            return View(movie);
         }
 	}
 }
