@@ -16,5 +16,13 @@ namespace Movies.Controllers
             var movie = new Movie() { Name = "WareHouse" };
             return View(movie);
         }
+
+
+        public ActionResult Edit(int id)
+        {
+
+            return Content("id=" + id);
+
+        }
 	}
 }
