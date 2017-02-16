@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using Movies.Models;
+using Movies.ViewModel;
 
 namespace Movies.Controllers
 {
@@ -17,13 +18,20 @@ namespace Movies.Controllers
             var customers = new List<Customer>
 
             {
-                new Customer = { Name = "Customer 1"},
-                new Customer = { Name = "Customer 2"}
-
+                new Customer  { Name = "Customer 1"},
+                new Customer  { Name = "Customer 2"}
 
             };
 
-            return View(movie);
+            var viewModel = new RandomMovieViewModel
+
+            {
+               Movie = movie,
+               Customers = customers
+
+            };
+
+            return View(viewModel);
        
         }
 
@@ -52,5 +60,7 @@ namespace Movies.Controllers
 
 
 
-	}
+
+        public List<Customer> Customers { get; set; }
+    }
 }
