@@ -7,7 +7,7 @@ using Movies.Models;
 
 namespace Movies.Controllers
 {
-    public class MoviesController : Controller
+    public class MovieController : Controller
     {
         //
         // GET: /Movies/Random
