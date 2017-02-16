@@ -25,6 +25,7 @@ namespace Movies.Controllers
 
         }
 
+        //Movies/Index?pageIndex=2&sortBy=name
         public ActionResult Index(int?  pageIndex, string sortBy)
         {
             if (!pageIndex.HasValue)
