@@ -6,12 +6,13 @@
 
 <h2>@Model.Movie.Name</h2>
 @if (Model.Customers.Count == 0)
-{
-    
-    <p>No one has rented this movie before</p>
-    
+{   
+    <p>No one has rented this movie before</p>   
 }
-<ul>
+
+else
+{
+    <ul>
 @foreach (var customer in Model.Customers)
 {
     
@@ -19,3 +20,7 @@
     
 }
     </ul>
+
+    
+}
+
