@@ -8,6 +8,15 @@ namespace Movies.Migrations
         public override void Up()
         {
             CreateTable(
+                "dbo.Customers",
+                c => new
+                    {
+                        Id = c.Int(nullable: false, identity: true),
+                        Name = c.String(),
+                    })
+                .PrimaryKey(t => t.Id);
+            
+            CreateTable(
                 "dbo.AspNetRoles",
                 c => new
                     {
@@ -83,6 +92,7 @@ namespace Movies.Migrations
             DropTable("dbo.AspNetUserClaims");
             DropTable("dbo.AspNetUsers");
             DropTable("dbo.AspNetRoles");
+            DropTable("dbo.Customers");
         }
     }
 }
