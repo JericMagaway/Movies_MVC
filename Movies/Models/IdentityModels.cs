@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNet.Identity.EntityFramework;
+using System.Data.Entity;
 
 namespace Movies.Models
 {
@@ -9,6 +10,8 @@ namespace Movies.Models
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
+        public DbSet<Customer> Cutomers { get; set; }
+        
         public ApplicationDbContext()
             : base("DefaultConnection")
         {

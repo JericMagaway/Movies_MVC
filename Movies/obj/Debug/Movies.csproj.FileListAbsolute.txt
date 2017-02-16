@@ -53,3 +53,5 @@ C:\TryToCode\Movies\Movies\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\TryToCode\Movies\Movies\obj\Debug\Movies.csprojResolveAssemblyReference.cache
 C:\TryToCode\Movies\Movies\obj\Debug\Movies.dll
 C:\TryToCode\Movies\Movies\obj\Debug\Movies.pdb
+C:\TryToCode\Movies\Movies\obj\Debug\Movies.Migrations.InitialModel.resources
+C:\TryToCode\Movies\Movies\obj\Debug\Movies.csproj.GenerateResource.Cache
