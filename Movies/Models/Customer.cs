@@ -13,5 +13,10 @@ namespace Movies.Models
 
         //Add-Migration AddIsSubscribedToCustomer
         public bool  IsSubscribedToNewsLetter { get; set; }
+        //this is the navigation Bar
+        public MembershipType MembershipType { get; set; }
+
+        //foreign key of Membership
+        public byte  MembershipTypeId { get; set; }
     }
 }
