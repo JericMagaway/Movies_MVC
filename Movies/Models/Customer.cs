@@ -11,9 +11,11 @@ namespace Movies.Models
 
         public string  Name { get; set; }
 
-        //Add-Migration AddIsSubscribedToCustomer
+        //1.Add-Migration AddIsSubscribedToCustomer
         public bool  IsSubscribedToNewsLetter { get; set; }
+
         //this is the navigation Bar
+        //2.Add-Migration MembershipType
         public MembershipType MembershipType { get; set; }
 
         //foreign key of Membership
