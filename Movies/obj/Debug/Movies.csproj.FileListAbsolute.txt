@@ -55,3 +55,4 @@ C:\TryToCode\Movies\Movies\obj\Debug\Movies.dll
 C:\TryToCode\Movies\Movies\obj\Debug\Movies.pdb
 C:\TryToCode\Movies\Movies\obj\Debug\Movies.Migrations.InitialModel.resources
 C:\TryToCode\Movies\Movies\obj\Debug\Movies.csproj.GenerateResource.Cache
+C:\TryToCode\Movies\Movies\obj\Debug\Movies.Migrations.AddIsSubscribedToCustomer.resources

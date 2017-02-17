@@ -10,5 +10,8 @@ namespace Movies.Models
         public int Id { get; set; }
 
         public string  Name { get; set; }
+
+        //Add-Migration AddIsSubscribedToCustomer
+        public bool  IsSubscribedToNewsLetter { get; set; }
     }
 }
