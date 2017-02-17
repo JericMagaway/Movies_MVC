@@ -57,3 +57,5 @@ C:\TryToCode\Movies\Movies\obj\Debug\Movies.Migrations.InitialModel.resources
 C:\TryToCode\Movies\Movies\obj\Debug\Movies.csproj.GenerateResource.Cache
 C:\TryToCode\Movies\Movies\obj\Debug\Movies.Migrations.AddIsSubscribedToCustomer.resources
 C:\TryToCode\Movies\Movies\obj\Debug\Movies.Migrations.AddMembershipType.resources
+C:\TryToCode\Movies\Movies\obj\Debug\Movies.Migrations.PopulateMembershipTypes.resources
+C:\TryToCode\Movies\Movies\obj\Debug\Movies.Migrations.ApplyAnnotationToCustomerName.resources
